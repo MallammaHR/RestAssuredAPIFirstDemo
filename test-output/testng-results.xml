@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T15:33:09 GMT-06:00" name="Default suite" finished-at="2024-01-10T15:33:12 GMT-06:00" duration-ms="3019">
+  <suite started-at="2024-01-10T16:44:42 GMT-06:00" name="Suite" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4084">
     <groups>
     </groups>
-    <test started-at="2024-01-10T15:33:09 GMT-06:00" name="Default test" finished-at="2024-01-10T15:33:12 GMT-06:00" duration-ms="3019">
-      <class name="com.rahul.ReqResAPIDemo">
-        <test-method signature="delete()[pri:0, instance:com.rahul.ReqResAPIDemo@6b695b06]" started-at="2024-01-10T15:33:09 GMT-06:00" name="delete" finished-at="2024-01-10T15:33:12 GMT-06:00" duration-ms="2965" status="PASS">
+    <test started-at="2024-01-10T16:44:42 GMT-06:00" name="Test" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4084">
+      <class name="com.rahul.GetDemoForGit">
+        <test-method signature="get()[pri:0, instance:com.rahul.GetDemoForGit@c430e6c]" started-at="2024-01-10T16:44:42 GMT-06:00" name="get" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete -->
-      </class> <!-- com.rahul.ReqResAPIDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- get -->
+      </class> <!-- com.rahul.GetDemoForGit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
