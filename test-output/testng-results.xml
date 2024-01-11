@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T16:44:42 GMT-06:00" name="Suite" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4084">
+  <suite started-at="2024-01-11T13:38:28 GMT-06:00" name="Default suite" finished-at="2024-01-11T13:38:30 GMT-06:00" duration-ms="2136">
     <groups>
     </groups>
-    <test started-at="2024-01-10T16:44:42 GMT-06:00" name="Test" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4084">
-      <class name="com.rahul.GetDemoForGit">
-        <test-method signature="get()[pri:0, instance:com.rahul.GetDemoForGit@c430e6c]" started-at="2024-01-10T16:44:42 GMT-06:00" name="get" finished-at="2024-01-10T16:44:46 GMT-06:00" duration-ms="4021" status="PASS">
+    <test started-at="2024-01-11T13:38:28 GMT-06:00" name="Default test" finished-at="2024-01-11T13:38:30 GMT-06:00" duration-ms="2136">
+      <class name="com.tests.SaopXLMRequest">
+        <test-method signature="validateSoapXML()[pri:0, instance:com.tests.SaopXLMRequest@2ab4bc72]" started-at="2024-01-11T13:38:28 GMT-06:00" name="validateSoapXML" finished-at="2024-01-11T13:38:30 GMT-06:00" duration-ms="2109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get -->
-      </class> <!-- com.rahul.GetDemoForGit -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- validateSoapXML -->
+      </class> <!-- com.tests.SaopXLMRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

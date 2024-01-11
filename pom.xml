@@ -1,7 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"   
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   
-http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+http://maven.apache.org/xsd/maven-4.0.0.xsd">   
+ 
   <modelVersion>4.0.0</modelVersion>
   <groupId>RestAssuredDemo</groupId>
   <artifactId>RestAssuredDemo</artifactId>
@@ -19,7 +20,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<target>7</target>
 			</configuration>
 			</plugin>
-			<plugin>
+              <plugin>
 		      <groupId>org.apache.maven.plugins</groupId>
 			  <artifactId>maven-surefire-plugin</artifactId>
               <version>3.0.0-M5</version>
@@ -31,7 +32,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
               </plugin>
 	  </plugins>
 	</build>
-  <dependencies>	 
+  <dependencies>	
+	  <dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>5.4.0</version>
+</dependency> 
 	<dependency>
     	<groupId>org.seleniumhq.selenium</groupId>
     	<artifactId>selenium-server</artifactId>
