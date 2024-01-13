@@ -3,7 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.demo.DataDrivenExample"/>
+      <class name="com.demo.DataDrivenExample">
+      		<methods>
+				  <include name ="getUsers"/>
+				  <include name="post"/>
+			  </methods>
+		</class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

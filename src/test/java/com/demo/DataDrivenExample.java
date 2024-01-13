@@ -24,7 +24,7 @@ public class DataDrivenExample
 			.statusCode(200).log().all();			
 	}
 	
-	//@Test()
+	@Test()
 	public void getSubjects()
 	{
 		baseURI="http://localhost:3000";
