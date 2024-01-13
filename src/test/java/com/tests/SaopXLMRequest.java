@@ -19,7 +19,7 @@ public class SaopXLMRequest  {
 	public void validateSoapXML() throws IOException 
 	{
 		
-		File file = new File("./SoapRequest/Subb.xml");
+		File file = new File("./SoapRequest/ADD.xml");
 		
 		if(file.exists())
 			System.out.println("File Exists"+file);
@@ -39,7 +39,7 @@ public class SaopXLMRequest  {
 		then().
 			statusCode(200).log().all().
 		and().
-			body(" //*:SubtractResult.text()", equalTo("8"));
+			body(" //*:AddResult.text()", equalTo("12"));
 			
 		
 	}

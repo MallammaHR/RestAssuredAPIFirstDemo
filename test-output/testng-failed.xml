@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tests.addSoapXMLValidator">
+      <class name="com.demo.DataDrivenExample">
         <methods>
-          <include name="divXML"/>
+          <include name="delet"/>
         </methods>
-      </class> <!-- com.tests.addSoapXMLValidator -->
+      </class> <!-- com.demo.DataDrivenExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

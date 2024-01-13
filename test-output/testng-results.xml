@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T16:31:00 GMT-06:00" name="Default suite" finished-at="2024-01-11T16:31:04 GMT-06:00" duration-ms="3666">
+  <suite started-at="2024-01-12T19:42:38 GMT-06:00" name="Default suite" finished-at="2024-01-12T19:42:40 GMT-06:00" duration-ms="2312">
     <groups>
     </groups>
-    <test started-at="2024-01-11T16:31:00 GMT-06:00" name="Default test" finished-at="2024-01-11T16:31:04 GMT-06:00" duration-ms="3666">
-      <class name="com.tests.addSoapXMLValidator">
-        <test-method signature="divXML()[pri:0, instance:com.tests.addSoapXMLValidator@6f204a1a]" started-at="2024-01-11T16:31:00 GMT-06:00" name="divXML" finished-at="2024-01-11T16:31:04 GMT-06:00" duration-ms="3621" status="PASS">
+    <test started-at="2024-01-12T19:42:38 GMT-06:00" name="Default test" finished-at="2024-01-12T19:42:40 GMT-06:00" duration-ms="2312">
+      <class name="com.demo.DataDrivenExample">
+        <test-method signature="post()[pri:0, instance:com.demo.DataDrivenExample@3cce5371]" started-at="2024-01-12T19:42:38 GMT-06:00" name="post" finished-at="2024-01-12T19:42:40 GMT-06:00" duration-ms="2268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- divXML -->
-      </class> <!-- com.tests.addSoapXMLValidator -->
+        </test-method> <!-- post -->
+      </class> <!-- com.demo.DataDrivenExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
