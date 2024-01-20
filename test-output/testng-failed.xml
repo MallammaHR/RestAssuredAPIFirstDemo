@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.demo.DataDrivenExample">
+      <class name="com.pojoJsonArry.CreateEmployeeJSONArray">
         <methods>
-          <include name="delet"/>
+          <include name="creatJSONOArraybjectFromEmployeClassObject"/>
         </methods>
-      </class> <!-- com.demo.DataDrivenExample -->
+      </class> <!-- com.pojoJsonArry.CreateEmployeeJSONArray -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

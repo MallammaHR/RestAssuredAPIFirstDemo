@@ -14,7 +14,7 @@ import org.eclipse.jetty.websocket.api.StatusCode;
 public class GETPOSTExamples 
 {
 	//get request
-	@Test
+	//@Test
 	public void test_A()
 	{
 	

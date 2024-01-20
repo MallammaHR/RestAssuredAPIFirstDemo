@@ -9,6 +9,9 @@ import static io.restassured.RestAssured.*;
 
 public class DataDrivenExample 
 {
+	
+	//@Test
+	//public void 
 	//@Test
 	public void getUsers()
 	{
@@ -24,7 +27,7 @@ public class DataDrivenExample
 			.statusCode(200).log().all();			
 	}
 	
-	@Test()
+	//@Test()
 	public void getSubjects()
 	{
 		baseURI="http://localhost:3000";
@@ -39,7 +42,7 @@ public class DataDrivenExample
 		
 	}
 	
-	@Test
+	//@Test
 	public void post()
 	{
 		JSONObject request=new JSONObject();
@@ -101,13 +104,13 @@ public class DataDrivenExample
 	}
 	
 	
-	//@Test
+	@Test
 	public void delet()
 	{
 		baseURI = "http://localhost:3000";
 		
 		when()
-			.delete("/users/3c73").
+			.delete("/users/76c8").
 		then()
 			.statusCode(200)
 			.log().all();

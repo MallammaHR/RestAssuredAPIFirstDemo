@@ -67,12 +67,12 @@ public class ReqResAPIDemo
 			statusCode(200).log().all();
 	}
 		
-	//@Test
+	@Test
 	public void patch()
 	{
 		JSONObject request=new JSONObject();
 		
-		request.put("name","TAANVI");
+		request.put("na me","TAANVI");
 		request.put("job", "Tester");
 		
 		baseURI = "https://reqres.in/api/";
