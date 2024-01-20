@@ -72,7 +72,7 @@ public class ReqResAPIDemo
 	{
 		JSONObject request=new JSONObject();
 		
-		request.put("na me","TAANVI");
+		request.put("name","TAANVI");
 		request.put("job", "Tester");
 		
 		baseURI = "https://reqres.in/api/";
